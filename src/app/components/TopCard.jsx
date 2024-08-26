@@ -52,7 +52,7 @@ function TopCard() {
 
         <div className="flex space-x-3 mb-4">
           <span className="bg-white py-2 rounded-md px-8 text-sm text-[#116A6C] font-semibold">THC {product.thc}%</span>
-          <span className="bg-[#62C3C6] text-white px-9 py-2 rounded-md text-sm font-semibold">CBD {product.cbd}%</span>
+          <span className="bg-[#62C3C6] text-white px-9 py-2 rounded-md text-sm font-semibold">CBD {product.cbd}1%</span>
           <span className="text-3xl flex justify-center mt-2">
             <div className="relative w-6 h-6">
               <div className="absolute inset-0 border-4 border-cyan-400 rounded-full border-dashed"></div>
