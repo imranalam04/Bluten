@@ -58,9 +58,9 @@ export default function Header() {
             </Link>
           </nav>
 
-          {/* Mobile menu button */}
+          {/* Mobile menu button  */}
           <button
-            className="lg:hidden"
+            className="lg:hidden ml-auto"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle Menu"
           >
