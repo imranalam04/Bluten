@@ -44,7 +44,7 @@ const LowerCard = () => {
             </div>
             <hr className="border-2 border-[#28E3E9]" />
             <div className="bg-[#16b6bc2d] p-6">
-                <h2 className="text-lg mr-40 lg:mr-52 md:mr-49 font-semibold px-2 mb-4 bg-[#16b6bc43] lg:px-4 md:px-4 lg:text-center md:text-center  py-1 rounded-md">{product.brand}</h2>
+                <h2 className="text-lg mr-40 lg:mr-52 md:mr-52 font-semibold px-2 mb-4 bg-[#16b6bc43] lg:px-4 md:px-4 lg:text-center md:text-center  py-1 rounded-md">{product.brand}</h2>
 
                 <div className="flex space-x-3 mb-4">
                     <span className="bg-white py-2 rounded-md px-8 text-sm font-semibold text-[#116A6C]">THC {product.thc}%</span>
