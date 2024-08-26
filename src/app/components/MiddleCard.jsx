@@ -47,7 +47,7 @@ const MiddleCard = () => {
                 </div>
             </div>
             <div className="bg-[#16b6bc2d] p-6">
-                <h2 className="text-lg font-semibold mr-60 lg:mr-52 md:mr-49 px-2 mb-4 bg-[#16b6bc43] lg:px-4 md:px-4 lg:text-center md:text-center  py-1 rounded-md">{product.brand}</h2>
+                <h2 className="text-lg font-semibold mr-40 lg:mr-52 md:mr-49 px-2 mb-4 bg-[#16b6bc43] lg:px-4 md:px-4 lg:text-center md:text-center  py-1 rounded-md">{product.brand}</h2>
                 <div className="flex space-x-3 mb-4">
                     <span className="bg-white py-2 rounded-md px-8 text-[15px] text-[#116A6C] font-semibold">THC {product.thc}%</span>
                     <span className="bg-[#62C3C6] text-white px-9 py-2 rounded-md text-sm font-semibold">CBD {product.cbd}1%</span>
@@ -64,19 +64,19 @@ const MiddleCard = () => {
                     <span className="block">{firstPart}PT</span>
                     <span className="block">{secondPart}</span>
                 </h3>
-                <div className="grid grid-cols-2 gap-40 mb-6">
+                <div className="grid grid-cols-2 gap-20 md:gap-40 mb-6">
                     <div>
                         <p className="text-md text-[#116A6C]">{product.type}</p>
                         <p className="text-md text-[#116A6C]">Genetik</p>
                     </div>
                     <div>
                         <p className="text-md text-[rgb(17,106,108)]">{product.subtype}</p>
-                        <p className="text-md sm:text-center md:text-center text-[#116A6C]">Hybrid</p>
+                        <p className="text-md text-center sm:text-center md:text-center text-[#116A6C]">Hybrid</p>
                     </div>
                 </div>
                 <div className="flex justify-between items-center">
                     <div>
-                        <p className="text-3xl font-bold text-[#62C3C6]">€ <span className="text-[#116A6C]">{product.price.toFixed(2)}</span> <sup className="text-[#116A6C]">1</sup></p>
+                        <p className="text-2xl md:text-3xl font-bold text-[#62C3C6]">€ <span className="text-[#116A6C]">{product.price.toFixed(2)}</span> <sup className="text-[#116A6C]">1</sup></p>
                         <p className="text-sm">pro Gramm</p>
                     </div>
                     {product.inStock ? (

@@ -48,7 +48,7 @@ function TopCard() {
       </div>
       <hr className="border-2 border-cyan-300" />
       <div className="bg-[#16b6bc2d] p-6">
-        <h2 className="text-lg font-semibold mb-4 bg-[#16b6bc43] px-2 lg:px-4 md:px-4 lg:text-center md:text-center mr-52 lg:mr-52 md:mr-49 py-1 rounded-md">{product.brand}</h2>
+        <h2 className="text-lg mr-40 lg:mr-52 md:mr-49 font-semibold mb-4 bg-[#16b6bc43] px-2 lg:px-4 md:px-4 lg:text-center md:text-center  md:mr-49 py-1 rounded-md">{product.brand}</h2>
 
         <div className="flex space-x-3 mb-4">
           <span className="bg-white py-2 rounded-md px-8 text-sm text-[#116A6C] font-semibold">THC {product.thc}%</span>
@@ -66,7 +66,7 @@ function TopCard() {
           <span className="block">{product.name.split(' ').slice(0, -1).join(' ')}</span>
           <span className="block">{product.name.split(' ').slice(-1).join(' ')}</span>
         </h3>
-        <div className="grid grid-cols-2 gap-52 mb-6">
+        <div className="grid grid-cols-2 gap-40 md:gap-52 mb-6">
           <div>
             <p className="text-md text-[#116A6C]">{product.type}</p>
             <p className="text-md text-[#116A6C]">Genetik</p>
@@ -78,7 +78,7 @@ function TopCard() {
         </div>
         <div className="flex justify-between items-center">
           <div>
-            <p className="text-3xl font-bold text-[#62C3C6]">€ <span className="text-[#116A6C]">{product.price.toFixed(2)}</span> <sup className="text-[#116A6C]">1</sup></p>
+            <p className="text-2xl md:text-3xl font-bold text-[#62C3C6]">€ <span className="text-[#116A6C]">{product.price.toFixed(2)}</span> <sup className="text-[#116A6C]">1</sup></p>
             <p className="text-sm">pro Gramm</p>
           </div>
           {isOutOfStock ? (
