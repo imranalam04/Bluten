@@ -26,18 +26,18 @@ const LowerCard = () => {
         <div className="max-w-sm mx-auto bg-white rounded-[20px_0_20px] overflow-hidden shadow-lg border-2 border-[#28E3E9] m-6">
             <div className="p-6">
                 <p
-                    className={`text-sm rounded-full w-[37%] text-center ${isOutOfStock ? 'text-red-500 bg-red-100' : 'text-[#A10C0C] bg-[#A10C0C0D]'}`}
+                    className={`text-sm rounded-full w-[37%] tracking-wider text-center ${isOutOfStock ? 'text-red-500 bg-red-100' : 'text-[#A10C0C] bg-[#A10C0C0D]'}`}
                     aria-label={isOutOfStock ? "Out of stock" : "In stock"}
                 >
-                    • {isOutOfStock ? "lieferbar " : "nicht lieferbar"}
+                    • {isOutOfStock ? "nicht lieferbar" : "lieferbar"}
                 </p>
-                <div className="flex justify-center items-center h-48 my-6">
+                <div className="flex justify-center my-6">
                     <Image
                         src={product.image}
                         alt={product.name}
                         width={150}
                         height={150}
-                        className="object-cover h-48"
+                        className="h-48 object-cover"
                         priority
                     />
                 </div>
